@@ -301,9 +301,9 @@ public class GameWindow extends JFrame {
 						}
 						comp.getSpriter().nextFrame();
 					}
+					repaint();
 				}
 				
-				repaint();
 			}
 			
 		}
